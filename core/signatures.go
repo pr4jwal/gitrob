@@ -727,7 +727,7 @@ var Signatures = []Signature{
 	},
 		PatternSignature{
 		part:        PartPath,
-		match:       regexp.MustCompile(`Bearer`),
+		match:       regexp.MustCompile(`bearer`),
 		description: "Contains word: Bearer",
 		comment:     "",
 	},
